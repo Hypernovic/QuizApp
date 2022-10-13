@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:transitionName="layout"
+    android:id="@+id/background_layout"
+    android:background="@drawable/gradient_background"
+    tools:context=".Activities.MainActivity">
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        app:rb_color="@color/white"
+        app:rb_radius="100dp"
+        app:rb_rippleAmount="1"
+        app:rb_duration="3000"
+        app:rb_scale="6">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/logo_image"
+            android:transitionName="logo_image"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            android:src="@drawable/makeshift"
+            android:layout_centerInParent="true"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            />
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SMO</string>
+    <string name="partnerKey">iqgtXdecc63e84b3146459c6bbfb22e88c5d1</string>
+    <string name="take_photo">TAKE PHOTO</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_message">You must grant permission to access camera and external storage to run this application.</string>
+    <string name="permission_warning">All permissions are required.</string>
+    <string name="title_activity_trials">trials</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Scholar Monks</string>
+    <string name="nav_header_subtitle">v1.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

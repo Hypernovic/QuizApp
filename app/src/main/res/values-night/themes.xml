@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuizApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/purple_700</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <!-- specify enter and exit transitions -->
+
+        <item name="android:windowContentTransitions">
+            true
+        </item>
+        <item name="android:windowBackground">@drawable/gradient_background</item>
+
+<!--        <item name="android:windowAnimationStyle">@style/DialogAnimation</item> &lt;!&ndash;custom animation style&ndash;&gt;-->
+
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="RegistrationTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Style attributes -->
+        <item name="boxCornerRadiusBottomStart">5dp</item>
+        <item name="boxCornerRadiusTopStart">5dp</item>
+        <item name="boxCornerRadiusTopEnd">5dp</item>
+        <item name="boxCornerRadiusBottomEnd">5dp</item>
+        <!-- Theme attributes -->
+        <item name="hintTextAppearance">@style/HintText</item>
+
+        <item name="android:textColorHint">#BCFFFFFF</item>
+
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@android:color/holo_blue_light</item>
+
+    </style>
+
+    <style name="HintText" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/geomanist</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+
+
+
+
+</resources>
