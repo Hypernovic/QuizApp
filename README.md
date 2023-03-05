@@ -1,7 +1,7 @@
 # QuizApp
 
 ## SUMMARY
-The Native Android App part of my Full-Stack Quiz App where the backend is deployed on Heroku
+The Native Android App part of my Full-Stack Quiz App where the backend is deployed on AWS EC2 instance
 
 ## IMAGES
 
